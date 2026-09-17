@@ -2265,6 +2265,7 @@ export default function App() {
   const [rows, setRows] = useState(initialRows);
   const [selected, setSelected] = useState([]);
   const [expandedGroups, setExpandedGroups] = useState(new Set());
+  const [hoveredRowKey, setHoveredRowKey] = useState(null);
   function toggleGroup(id) {
     setExpandedGroups((prev) => {
       const next = new Set(prev);
@@ -2743,8 +2744,10 @@ export default function App() {
                     return (
                       <Fragment key={r.id}>
                         <tr
-                          style={{ background: rowBg(r) }}
-                          className="border-t transition-colors hover:brightness-95"
+                          style={{ background: hoveredRowKey === r.id ? shade(rowBg(r), -4) : rowBg(r) }}
+                          className="border-t transition-colors"
+                          onMouseEnter={() => setHoveredRowKey(r.id)}
+                          onMouseLeave={() => setHoveredRowKey(null)}
                         >
                           <Td>
                             <input
@@ -2925,7 +2928,13 @@ export default function App() {
                         {isGroup &&
                           isExpanded &&
                           r.subRows.map((s, idx) => (
-                            <tr key={`${r.id}-sub-${idx}`} className="border-t transition-colors hover:brightness-95" style={{ background: "#ffffff" }}>
+                            <tr
+                              key={`${r.id}-sub-${idx}`}
+                              className="border-t transition-colors"
+                              style={{ background: hoveredRowKey === `${r.id}-sub-${idx}` ? shade("#ffffff", -4) : "#ffffff" }}
+                              onMouseEnter={() => setHoveredRowKey(`${r.id}-sub-${idx}`)}
+                              onMouseLeave={() => setHoveredRowKey(null)}
+                            >
                               <Td>{null}</Td>
                               <Td>
                                 <span className="inline-flex items-center gap-2">
