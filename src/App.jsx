@@ -105,7 +105,7 @@ const initialRows = [
     produitLabel: "Issu du...",
     fournisseur: "CRENO",
     recette: "Salade de melon",
-    etat: "A commander",
+    etat: "En stock",
     prixUnitaire: "3,80 €/kg",
     prixTotal: "76,00 €",
     dateProd: "12/09",
@@ -128,7 +128,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "TRANSGOURMET",
     recette: "Salade composée",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "3,29 €/kg",
     prixTotal: "75,67 €",
     dateProd: "13/09",
@@ -153,7 +153,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "POMONA TERRE AZUR",
     recette: "Gratin dauphinois",
-    etat: "A commander",
+    etat: "À traiter",
     prixUnitaire: "1,58 €/kg",
     prixTotal: "41,08 €",
     dateProd: "14/09",
@@ -173,16 +173,16 @@ const initialRows = [
     matchProduct: "Laitue Bio",
     matchGamme: "brut",
     dateLivraison: "Multi",
-    produitLabel: "Bio",
+    produitLabel: "",
     fournisseur: "TRANSGOURMET",
     recette: "Multi",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "7,00 €/kg",
     prixTotal: "60,90 €",
     dateProd: "Multi",
     besoinMenu: "29,00 pièces",
     moinsCher: false,
-    labelMismatch: false,
+    labelMismatch: true,
     sansOffre: false,
     subRows: [
       {
@@ -190,7 +190,7 @@ const initialRows = [
         dateLivraison: "12/09",
         dateProd: "12/09",
         dateConso: "12/12",
-        etat: "Traité",
+        etat: "Commandé",
         prixTotal: "35,00 €",
         besoinMenu: "15,00 pièces",
         verified: false,
@@ -200,7 +200,7 @@ const initialRows = [
         dateLivraison: "13/09",
         dateProd: "13/09",
         dateConso: "13/12",
-        etat: "Traité",
+        etat: "Commandé",
         prixTotal: "25,90 €",
         besoinMenu: "14,00 pièces",
         verified: false,
@@ -221,7 +221,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "",
     recette: "Salade composée",
-    etat: "A commander",
+    etat: "En stock",
     prixUnitaire: null,
     prixTotal: null,
     dateProd: "12/09",
@@ -244,7 +244,7 @@ const initialRows = [
     produitLabel: "Bio",
     fournisseur: "FRANCE FRAIS",
     recette: "Petit-déjeuner",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "4,10 €/kg",
     prixTotal: "14,35 €",
     dateProd: "13/09",
@@ -267,7 +267,7 @@ const initialRows = [
     produitLabel: "Bio",
     fournisseur: "PRO A PRO",
     recette: "Plateau de fromages",
-    etat: "A commander",
+    etat: "À traiter",
     prixUnitaire: "15,00 €/kg",
     prixTotal: "11,40 €",
     dateProd: "14/09",
@@ -290,7 +290,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "FRANCE FRAIS",
     recette: "Plateau de fromages",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "13,33 €/kg",
     prixTotal: "16,40 €",
     dateProd: "13/09",
@@ -315,7 +315,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "SYSCO",
     recette: "Salade de chèvre chaud",
-    etat: "A commander",
+    etat: "En stock",
     prixUnitaire: "16,00 €/kg",
     prixTotal: "14,08 €",
     dateProd: "12/09",
@@ -338,7 +338,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "SYSCO",
     recette: "Multi",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "14,20 €/kg",
     prixTotal: "312,40 €",
     dateProd: "13/09",
@@ -352,7 +352,7 @@ const initialRows = [
         dateLivraison: "13/09",
         dateProd: "13/09",
         dateConso: "14/12",
-        etat: "Traité",
+        etat: "Commandé",
         prixTotal: "213,00 €",
         besoinMenu: "15,00 kg",
         verified: false,
@@ -362,7 +362,7 @@ const initialRows = [
         dateLivraison: "13/09",
         dateProd: "13/09",
         dateConso: "14/12",
-        etat: "Traité",
+        etat: "Commandé",
         prixTotal: "99,40 €",
         besoinMenu: "7,00 kg",
         verified: false,
@@ -383,7 +383,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "SYSCO",
     recette: "Rôti du dimanche",
-    etat: "A commander",
+    etat: "À traiter",
     prixUnitaire: "17,80 €/kg",
     prixTotal: "445,00 €",
     dateProd: "14/09",
@@ -406,7 +406,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "FRANCE FRAIS",
     recette: "Rôti de porc",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "6,96 €/kg",
     prixTotal: "194,88 €",
     dateProd: "13/09",
@@ -430,7 +430,7 @@ const initialRows = [
     produitLabel: "Issu du...",
     fournisseur: "DS RESTAURATION",
     recette: "Filet de boeuf",
-    etat: "A commander",
+    etat: "En stock",
     prixUnitaire: "28,36 €/kg",
     prixTotal: "879,16 €",
     dateProd: "12/09",
@@ -453,7 +453,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "",
     recette: "Agneau confit",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: null,
     prixTotal: null,
     dateProd: "13/09",
@@ -476,7 +476,7 @@ const initialRows = [
     produitLabel: "Issu du...",
     fournisseur: "POMONA PASSION FROID",
     recette: "Blanquette de veau",
-    etat: "A commander",
+    etat: "À traiter",
     prixUnitaire: "13,41 €/kg",
     prixTotal: "496,17 €",
     dateProd: "14/09",
@@ -499,7 +499,7 @@ const initialRows = [
     produitLabel: "Issu du...",
     fournisseur: "SYSCO",
     recette: "Poulet basquaise",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "6,38 €/kg",
     prixTotal: "255,20 €",
     dateProd: "13/09",
@@ -523,7 +523,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "FRANCE FRAIS",
     recette: "Salade César",
-    etat: "A commander",
+    etat: "En stock",
     prixUnitaire: "5,32 €/kg",
     prixTotal: "114,38 €",
     dateProd: "12/09",
@@ -546,7 +546,7 @@ const initialRows = [
     produitLabel: "Bio",
     fournisseur: "POMONA EPISAVEURS",
     recette: "Dessert enfant",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "3,00 €/kg",
     prixTotal: "6,30 €",
     dateProd: "13/09",
@@ -569,7 +569,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "CERCLE VERT",
     recette: "Sauce maison",
-    etat: "A commander",
+    etat: "À traiter",
     prixUnitaire: "10,62 €/kg",
     prixTotal: "114,72 €",
     dateProd: "14/09",
@@ -592,7 +592,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "POMONA EPISAVEURS",
     recette: "Pâtes bolognaise",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "1,22 €/kg",
     prixTotal: "32,94 €",
     dateProd: "13/09",
@@ -615,7 +615,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "",
     recette: "Ratatouille",
-    etat: "A commander",
+    etat: "En stock",
     prixUnitaire: null,
     prixTotal: null,
     dateProd: "12/09",
@@ -638,7 +638,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "RELAIS D'OR",
     recette: "Poulet basquaise",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "7,84 €/kg",
     prixTotal: "258,72 €",
     dateProd: "13/09",
@@ -661,7 +661,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "RESEAU KRILL",
     recette: "Ravioli gratinés",
-    etat: "A commander",
+    etat: "À traiter",
     prixUnitaire: "8,54 €/kg",
     prixTotal: "307,44 €",
     dateProd: "14/09",
@@ -684,7 +684,7 @@ const initialRows = [
     produitLabel: "",
     fournisseur: "POMONA PASSION FROID",
     recette: "Purée de panais",
-    etat: "Traité",
+    etat: "Commandé",
     prixUnitaire: "2,65 €/kg",
     prixTotal: "103,35 €",
     dateProd: "13/09",
@@ -1384,18 +1384,18 @@ function LabelBadge({ label, className = "px-2 py-0.5 rounded-full text-[11px] f
 
 const matchStyle = {
   historique: { c: T.matchHistorique, icon: History, label: "Match historique" },
-  favori: { c: T.matchAuto, icon: Star, label: "Match automatique — Favori" },
-  mp: { c: T.matchAuto, icon: Store, label: "Match automatique — Marché public" },
-  basevariant: { c: T.matchAuto, icon: Shuffle, label: "Match automatique — Base/variante" },
+  favori: { c: T.matchAuto, icon: Star, label: "Produit favori" },
+  mp: { c: T.matchAuto, icon: Store, label: "Produit issu d'un marché public" },
+  basevariant: { c: T.matchAuto, icon: Shuffle, label: "Produit similaire" },
   manuel: { c: T.matchHistorique, icon: Pencil, label: "Match manuel" },
   none: { c: T.rose, icon: X, label: "Sans match" },
 };
 
 const MATCH_TYPE_BADGE_TEXT = {
   historique: "Dernier achat",
-  favori: "Favori",
-  mp: "Marché public",
-  basevariant: "Base/variante",
+  favori: "Produit favori",
+  mp: "Produit issu d'un marché public",
+  basevariant: "Produit similaire",
   manuel: "Sélection manuelle",
 };
 
@@ -1663,9 +1663,31 @@ function CandidateCard({ c, row, selected, onSelect, onViewMore, pinned }) {
             {c.name}
           </span>{" "}
           <span className="italic text-gray-500">{c.gamme}</span>{" "}
-          <span className="text-gray-400">| {c.fournisseur}</span>
+          <span className="text-gray-500">| {c.fournisseur}</span>
         </div>
-        <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+        <div className="text-[14px] font-normal mt-1 flex items-center gap-1.5" style={{ color: "#1f2430" }}>
+          {c.sansOffre ? (
+            <span
+              className="px-2 py-0.5 rounded-full text-[12px] font-semibold"
+              style={{ background: T.rose.badge, color: T.rose.text }}
+            >
+              Sans offre
+            </span>
+          ) : (
+            <>
+              {c.price}
+              {c.marketPublic && (
+                <Tooltip text="Ce produit est issu d'un marché public">
+                  <MarketPublicIcon size={20} />
+                </Tooltip>
+              )}
+              {c.marketPublic && (
+                <span className="text-[12px] font-normal text-gray-400">| {c.catalog}</span>
+              )}
+            </>
+          )}
+        </div>
+        <div className="flex items-center gap-1.5 mt-1.5 flex-wrap">
           {c.labels?.map((l) => (
             <LabelBadge key={l} label={l} className="px-2 py-0.5 rounded-full text-[12px] font-semibold" />
           ))}
@@ -1697,38 +1719,20 @@ function CandidateCard({ c, row, selected, onSelect, onViewMore, pinned }) {
             </span>
           )}
         </div>
-        <div className="text-[12px] text-gray-600 mt-1 flex items-center gap-1.5">
-          {c.sansOffre ? (
-            <span
-              className="px-2 py-0.5 rounded-full text-[12px] font-semibold"
-              style={{ background: T.rose.badge, color: T.rose.text }}
-            >
-              Sans offre
-            </span>
-          ) : (
-            <>
-              {c.marketPublic && (
-                <Tooltip text="Ce produit est issu d'un marché public">
-                  <MarketPublicIcon size={20} />
-                </Tooltip>
-              )}
-              {c.price}
-              {c.marketPublic && <span className="text-gray-400">| {c.catalog}</span>}
-            </>
-          )}
-        </div>
       </div>
-      <div className="flex flex-col items-end self-start flex-shrink-0" style={{ gap: "20px" }}>
-        <div style={{ height: "16px", display: "flex", alignItems: "center" }}>
+      <div className="flex flex-col items-end self-start flex-shrink-0">
+        <div style={{ height: "20px", display: "flex", alignItems: "center" }}>
           {c.favori && (
             <Tooltip text="Produit en favori">
               <Star size={16} color="#9aa0a6" fill="#9aa0a6" />
             </Tooltip>
           )}
         </div>
+        <div style={{ height: "20px", marginTop: "4px" }} />
+        <div style={{ marginTop: "6px" }}>
         {matchInfo ? (
           <span
-            className="px-2 py-0.5 rounded-full text-[12px] font-semibold whitespace-nowrap"
+            className="px-2 py-0.5 rounded-full text-[12px] font-semibold whitespace-nowrap inline-flex items-center"
             style={{ background: matchInfo.c.badge, color: matchInfo.c.text }}
           >
             {MATCH_TYPE_BADGE_TEXT[row.matchType]}
@@ -1740,14 +1744,17 @@ function CandidateCard({ c, row, selected, onSelect, onViewMore, pinned }) {
               style={
                 c.badge === "Dernier achat"
                   ? { background: T.matchHistorique.badge, color: T.matchHistorique.text }
+                  : c.badge === "Le moins cher"
+                  ? { background: "#FCEACB", color: T.amberDark }
                   : { background: GRAY.badge, color: GRAY.text }
               }
             >
-              {c.badge === "Le moins cher" && <Coins size={12} color={GRAY.text} />}
+              {c.badge === "Le moins cher" && <Coins size={12} color={T.amberDark} />}
               {c.badge}
             </span>
           )
         )}
+        </div>
       </div>
     </div>
   );
@@ -2056,8 +2063,9 @@ function MatchPopup({ row, onClose, onConfirm, onViewProduct }) {
             onChange={setEtat}
             width="w-40"
             options={[
-              { value: "A commander", label: "A commander" },
-              { value: "Traité", label: "Traité" },
+              { value: "En stock", label: "En stock" },
+              { value: "À traiter", label: "À traiter" },
+              { value: "Commandé", label: "Commandé" },
             ]}
           />
           <span
@@ -2222,7 +2230,7 @@ function MatchPopup({ row, onClose, onConfirm, onViewProduct }) {
 
         {/* Footer */}
         {!row.__isSubRow && (
-          <div className="px-6 py-4 border-t shrink-0" style={{ borderColor: T.border }}>
+          <div className="px-6 py-4 border-t shrink-0 flex items-center justify-between gap-4" style={{ borderColor: T.border }}>
             <label className="flex items-center gap-2 text-[13px] text-gray-600 cursor-pointer">
               <input
                 type="checkbox"
@@ -2232,6 +2240,16 @@ function MatchPopup({ row, onClose, onConfirm, onViewProduct }) {
               />
               Appliquer ce match à tous les aliments "{row.aliment}" ayant la même gamme
             </label>
+            {pinnedCandidate && (
+              <button
+                onClick={() => toggleSelect(pinnedCandidate.id)}
+                className="px-4 py-2 rounded-full border text-[13px] font-semibold inline-flex items-center gap-1.5 whitespace-nowrap hover:opacity-80"
+                style={{ borderColor: T.rose.text, color: T.rose.text }}
+              >
+                <Trash2 size={14} />
+                Retirer le match
+              </button>
+            )}
           </div>
         )}
     </div>
@@ -2606,8 +2624,9 @@ export default function App() {
                           applyBulkEtat(v);
                         }}
                         options={[
-                          { value: "A commander", label: "A commander" },
-                          { value: "Traité", label: "Traité" },
+                          { value: "En stock", label: "En stock" },
+                          { value: "À traiter", label: "À traiter" },
+                          { value: "Commandé", label: "Commandé" },
                         ]}
                       />
                       <Pill onClick={() => applyBulkDate("13/09")}>
@@ -2651,7 +2670,7 @@ export default function App() {
                         options={["historique", "automatique", "none"]}
                         optionLabels={{
                           historique: "Match historique",
-                          automatique: "Match automatique",
+                          automatique: "Match automatique nona",
                           none: "Sans match",
                         }}
                         optionColors={{
@@ -2664,7 +2683,7 @@ export default function App() {
                       />
                       <MultiSelect
                         label="État"
-                        options={["A commander", "Traité"]}
+                        options={["En stock", "À traiter", "Commandé"]}
                         selected={etatFilter}
                         onChange={setEtatFilter}
                       />
@@ -2704,16 +2723,16 @@ export default function App() {
                     </Th>
                     <Th>Aliment</Th>
                     <Th>Match produit</Th>
-                    <Th>Date de liv.</Th>
+                    <Th>Vérification</Th>
                     <Th>Label</Th>
                     <Th>Fournisseur</Th>
                     <Th>Recette</Th>
                     <Th>État</Th>
                     <Th>Prix/kg</Th>
                     <Th>Prix total</Th>
+                    <Th>Date de liv.</Th>
                     <Th>Date de prod.</Th>
                     <Th>Besoin menu</Th>
-                    <Th>Vérification</Th>
                   </tr>
                 </thead>
                 <tbody>
@@ -2725,7 +2744,7 @@ export default function App() {
                       <Fragment key={r.id}>
                         <tr
                           style={{ background: rowBg(r) }}
-                          className="border-t transition-colors"
+                          className="border-t transition-colors hover:brightness-95"
                         >
                           <Td>
                             <input
@@ -2781,28 +2800,35 @@ export default function App() {
                             </span>
                           </Td>
                           <Td>
-                            {r.dateLivraison ? (
-                              r.dateLivraison === "Multi" ? (
-                                <Tooltip
-                                  text={r.subRows
-                                    .map((s) => `${s.recette} : ${s.dateLivraison}`)
-                                    .join(" · ")}
-                                >
-                                  <span className="px-2 py-0.5 rounded-full text-[12px] font-semibold bg-gray-200 text-gray-600">
-                                    Multi
-                                  </span>
-                                </Tooltip>
-                              ) : (
+                            <Tooltip
+                              text={
+                                isGroup
+                                  ? "Valide/dévalide le match pour toutes les recettes de ce groupe"
+                                  : r.verified
+                                  ? "Marqué comme vérifié — cliquer pour repasser en non vérifié"
+                                  : "Marquer ce match comme vérifié"
+                              }
+                            >
+                              <button
+                                onClick={() => (isGroup ? toggleGroupVerified(r) : toggleVerified(r.id))}
+                                className="w-11 h-6 rounded-full relative transition-colors"
+                                style={{ background: (isGroup ? groupAllVerified : r.verified) ? T.teal : "#d8d8da" }}
+                              >
                                 <span
-                                  className="px-2 py-0.5 rounded-full text-[12px] font-semibold"
-                                  style={{ background: dayColorFor(r.dateLivraison), color: "#ffffff" }}
+                                  className="absolute top-0.5 w-5 h-5 rounded-full shadow flex items-center justify-center transition-all"
+                                  style={{
+                                    left: (isGroup ? groupAllVerified : r.verified) ? "22px" : "2px",
+                                    background: (isGroup ? groupAllVerified : r.verified) ? "#ffffff" : "#2b2f36",
+                                  }}
                                 >
-                                  {r.dateLivraison}
+                                  {(isGroup ? groupAllVerified : r.verified) ? (
+                                    <Check size={12} color={T.teal} />
+                                  ) : (
+                                    <History size={12} color="#ffffff" />
+                                  )}
                                 </span>
-                              )
-                            ) : (
-                              "—"
-                            )}
+                              </button>
+                            </Tooltip>
                           </Td>
                           <Td>
                             {r.produitLabel ? (
@@ -2835,8 +2861,9 @@ export default function App() {
                                 className="appearance-none border rounded-full pl-3 pr-8 py-1 text-[12.5px] bg-white outline-none cursor-pointer"
                                 style={{ borderColor: T.border }}
                               >
-                                <option>A commander</option>
-                                <option>Traité</option>
+                                <option>En stock</option>
+                                <option>À traiter</option>
+                                <option>Commandé</option>
                               </select>
                               <ChevronDown
                                 size={14}
@@ -2854,6 +2881,30 @@ export default function App() {
                           </Td>
                           <Td>{r.prixTotal || "—"}</Td>
                           <Td>
+                            {r.dateLivraison ? (
+                              r.dateLivraison === "Multi" ? (
+                                <Tooltip
+                                  text={r.subRows
+                                    .map((s) => `${s.recette} : ${s.dateLivraison}`)
+                                    .join(" · ")}
+                                >
+                                  <span className="px-2 py-0.5 rounded-full text-[12px] font-semibold bg-gray-200 text-gray-600">
+                                    Multi
+                                  </span>
+                                </Tooltip>
+                              ) : (
+                                <span
+                                  className="px-2 py-0.5 rounded-full text-[12px] font-semibold"
+                                  style={{ background: dayColorFor(r.dateLivraison), color: "#ffffff" }}
+                                >
+                                  {r.dateLivraison}
+                                </span>
+                              )
+                            ) : (
+                              "—"
+                            )}
+                          </Td>
+                          <Td>
                             {r.dateProd === "Multi" ? (
                               <Tooltip
                                 text={r.subRows
@@ -2869,43 +2920,12 @@ export default function App() {
                             )}
                           </Td>
                           <Td>{r.besoinMenu || "—"}</Td>
-                          <Td>
-                            <Tooltip
-                              text={
-                                isGroup
-                                  ? "Valide/dévalide le match pour toutes les recettes de ce groupe"
-                                  : r.verified
-                                  ? "Marqué comme vérifié — cliquer pour repasser en non vérifié"
-                                  : "Marquer ce match comme vérifié"
-                              }
-                            >
-                              <button
-                                onClick={() => (isGroup ? toggleGroupVerified(r) : toggleVerified(r.id))}
-                                className="w-11 h-6 rounded-full relative transition-colors"
-                                style={{ background: (isGroup ? groupAllVerified : r.verified) ? T.teal : "#d8d8da" }}
-                              >
-                                <span
-                                  className="absolute top-0.5 w-5 h-5 rounded-full shadow flex items-center justify-center transition-all"
-                                  style={{
-                                    left: (isGroup ? groupAllVerified : r.verified) ? "22px" : "2px",
-                                    background: (isGroup ? groupAllVerified : r.verified) ? "#ffffff" : "#2b2f36",
-                                  }}
-                                >
-                                  {(isGroup ? groupAllVerified : r.verified) ? (
-                                    <Check size={12} color={T.teal} />
-                                  ) : (
-                                    <History size={12} color="#ffffff" />
-                                  )}
-                                </span>
-                              </button>
-                            </Tooltip>
-                          </Td>
                         </tr>
 
                         {isGroup &&
                           isExpanded &&
                           r.subRows.map((s, idx) => (
-                            <tr key={`${r.id}-sub-${idx}`} className="border-t transition-colors" style={{ background: "#ffffff" }}>
+                            <tr key={`${r.id}-sub-${idx}`} className="border-t transition-colors hover:brightness-95" style={{ background: "#ffffff" }}>
                               <Td>{null}</Td>
                               <Td>
                                 <span className="inline-flex items-center gap-2">
@@ -2935,63 +2955,6 @@ export default function App() {
                                 />
                               </Td>
                               <Td>
-                                {s.dateLivraison ? (
-                                  <span
-                                    className="px-2 py-0.5 rounded-full text-[12px] font-semibold"
-                                    style={{ background: dayColorFor(s.dateLivraison), color: "#ffffff" }}
-                                  >
-                                    {s.dateLivraison}
-                                  </span>
-                                ) : (
-                                  "—"
-                                )}
-                              </Td>
-                              <Td>
-                                {r.produitLabel ? (
-                                  <LabelBadge label={r.produitLabel} />
-                                ) : r.labelMismatch ? (
-                                  <Tooltip text="Le label du produit matché est différent du label ingrédient">
-                                    <AlertTriangle size={15} color={T.amberDark} />
-                                  </Tooltip>
-                                ) : (
-                                  "—"
-                                )}
-                              </Td>
-                              <Td>{r.fournisseur || "—"}</Td>
-                              <Td>
-                                <Tooltip text="Précision sur la recette">
-                                  <span>{s.recette}</span>
-                                </Tooltip>
-                              </Td>
-                              <Td>
-                                <span className="relative inline-flex items-center">
-                                  <select
-                                    value={s.etat}
-                                    onChange={(e) => setSubRowEtat(r.id, idx, e.target.value)}
-                                    className="appearance-none border rounded-full pl-3 pr-8 py-1 text-[12.5px] bg-white outline-none cursor-pointer"
-                                    style={{ borderColor: T.border }}
-                                  >
-                                    <option>A commander</option>
-                                    <option>Traité</option>
-                                  </select>
-                                  <ChevronDown
-                                    size={14}
-                                    className="pointer-events-none absolute text-gray-500"
-                                    style={{ right: "10px" }}
-                                  />
-                                </span>
-                              </Td>
-                              <Td>
-                                {r.prixUnitaire ? (
-                                  <span className="inline-flex items-center gap-1">{r.prixUnitaire}</span>
-                                ) : (
-                                  "—"
-                                )}
-                              </Td>
-                              <Td>{s.prixTotal || "—"}</Td>
-                              <Td>{s.dateProd || "—"}</Td>
-                              <Td>{s.besoinMenu || "—"}</Td>
-                              <Td>
                                 <Tooltip
                                   text={
                                     s.verified
@@ -3020,6 +2983,64 @@ export default function App() {
                                   </button>
                                 </Tooltip>
                               </Td>
+                              <Td>
+                                {r.produitLabel ? (
+                                  <LabelBadge label={r.produitLabel} />
+                                ) : r.labelMismatch ? (
+                                  <Tooltip text="Le label du produit matché est différent du label ingrédient">
+                                    <AlertTriangle size={15} color={T.amberDark} />
+                                  </Tooltip>
+                                ) : (
+                                  "—"
+                                )}
+                              </Td>
+                              <Td>{r.fournisseur || "—"}</Td>
+                              <Td>
+                                <Tooltip text="Précision sur la recette">
+                                  <span>{s.recette}</span>
+                                </Tooltip>
+                              </Td>
+                              <Td>
+                                <span className="relative inline-flex items-center">
+                                  <select
+                                    value={s.etat}
+                                    onChange={(e) => setSubRowEtat(r.id, idx, e.target.value)}
+                                    className="appearance-none border rounded-full pl-3 pr-8 py-1 text-[12.5px] bg-white outline-none cursor-pointer"
+                                    style={{ borderColor: T.border }}
+                                  >
+                                    <option>En stock</option>
+                                    <option>À traiter</option>
+                                    <option>Commandé</option>
+                                  </select>
+                                  <ChevronDown
+                                    size={14}
+                                    className="pointer-events-none absolute text-gray-500"
+                                    style={{ right: "10px" }}
+                                  />
+                                </span>
+                              </Td>
+                              <Td>
+                                {r.prixUnitaire ? (
+                                  <span className="inline-flex items-center gap-1">{r.prixUnitaire}</span>
+                                ) : (
+                                  "—"
+                                )}
+                              </Td>
+                              <Td>{s.prixTotal || "—"}</Td>
+                              <Td>
+                                {s.dateLivraison ? (
+                                  <span
+                                    className="px-2 py-0.5 rounded-full text-[12px] font-semibold"
+                                    style={{ background: dayColorFor(s.dateLivraison), color: "#ffffff" }}
+                                  >
+                                    {s.dateLivraison}
+                                  </span>
+                                ) : (
+                                  "—"
+                                )}
+                              </Td>
+                              <Td>{s.dateProd || "—"}</Td>
+                              <Td>{s.besoinMenu || "—"}</Td>
                             </tr>
                           ))}
                       </Fragment>
